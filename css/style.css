@@ -232,6 +232,15 @@ a {
 
 
 @media (max-width: 1024px) {
+    .header__main {
+        background-position: -1030px -115px;
+    }
+    .subForm-name {
+        margin-bottom: 10px;
+    }
+    .subForm-tel {
+        margin-bottom: 10px;
+    }
     .nav__list {
         flex-direction: column;
         text-align: center;
