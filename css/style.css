@@ -36,8 +36,13 @@ a {
 
 
 
-.logo img {
+.logo {
     max-width: 100%;
+}
+
+.logo-scroll {
+    width: 140px;
+    transition: .3s;
 }
 
 .header__adress {
@@ -61,7 +66,6 @@ a {
     /* background-position: -150px 0; */
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: 100vh; */
     padding-top: 100px;
 }
 
@@ -177,6 +181,11 @@ a {
      display: none;
  }
 
+ .burger-scroll {
+     top: -55px;
+     transition: .3s;
+ }
+
  .burger-item {
      width: 100%;
      height: 4px;
@@ -206,12 +215,10 @@ a {
      position: absolute;
      top: -13px;
      left: 0;
-     transition: .3s;
- }
+  }
 
  .burger-item_open {
      height: 0;
-     transition: .3s;
  }
 
  .burger-item_open::before {
@@ -233,7 +240,7 @@ a {
 
 @media (max-width: 1024px) {
     .header__main {
-        background-position: -1030px -115px;
+        background-position: -1030px ;
     }
     .subForm-name {
         margin-bottom: 10px;
@@ -258,5 +265,82 @@ a {
     .burger {
         display: block;
         transition: 1s;
+    }
+    .btn {
+        display: block;
+    }
+}
+
+@media (max-width: 770px) {
+    body {
+        padding-top: 60px;
+    }
+    .header__main {
+        background-position: -880px 0;
+    }
+    .nav__list {
+        display: flex;
+        opacity: 1;
+        flex-direction: row;
+    }
+    .nav__link {
+        font-size: 15px;
+    }
+    .burger {
+        display: none;
+    }
+}
+
+@media (max-width: 430px) {
+    .header__main {
+        background-position: -985px 0;
+    }
+    .nav__list {
+        display: none;
+    }
+    .nav__list-open {
+        display: flex;
+        opacity: 1;
+        flex-direction: column;
+        text-align: center;
+    }
+    .burger {
+        display: block;
+    }
+}
+
+@media (max-width: 380px) {
+    .header__main {
+        background-position: -1110px 0;
+    }
+    .nav__list {
+        display: none;
+    }
+    .nav__list-open {
+        display: flex;
+        opacity: 1;
+        flex-direction: column;
+        text-align: center;
+    }
+    .burger {
+        display: block;
+    }
+}
+
+@media (max-width: 320px) {
+    .header__main {
+        background-position: -1200px 0;
+    }
+    .nav__list {
+        display: none;
+    }
+    .nav__list-open {
+        display: flex;
+        opacity: 1;
+        flex-direction: column;
+        text-align: center;
+    }
+    .burger {
+        display: block;
     }
 }
