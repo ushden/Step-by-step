@@ -323,6 +323,30 @@ h1 span {
     margin-left: 20px;
 }
 
+/*  predlog (kek) */
+
+.predlog {
+    background-color: #e9eef5;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.predlog-title {
+    text-align: center;
+    color: #002f6c;
+    margin-bottom: 30px;
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.predlog-info p span {
+    color: #cd0046;
+    font-weight: bold;
+}
+.predlog-info {
+    margin-bottom: 20px;
+}
+
 /* Courses =-=-=-==-==-=--=-=-=-=-=-=-=- */
 
 .course {
