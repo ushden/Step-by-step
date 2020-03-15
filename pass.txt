@@ -1,0 +1,11 @@
+  database
+
+name: stepbystep
+log: stepbystep
+pass: stepbystep4848
+
+  wordpress
+
+log: admin
+
+pass: stepbystep48
